@@ -1,0 +1,54 @@
+.cabecera{
+    background-color: black;
+
+
+}
+
+.cabecera img{
+
+    display: block;
+    width: 60%;
+    margin: auto;
+}
+h1{
+    color: white;
+    text-align: center;
+    font-family: serif; 
+    font-size: 32pt;
+
+}
+.Creed{
+    color: red;
+
+}
+.noticias{
+    background-color:  rgb(24, 23, 23);
+    margin:5px;
+    border: 1px solid white;
+
+    width: 350px;
+}
+.noticias img {
+    
+    width: 100%;
+    height: auto;
+
+}
+a{
+text-decoration: none;
+
+}
+.titulo{
+display: flex;
+padding: 15px;
+text-align: center;
+color: white;
+}
+.noticias:hover{
+    border: 1px solid rgb(105, 105, 105)
+
+
+}
+
+
+

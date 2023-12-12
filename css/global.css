@@ -1,0 +1,36 @@
+/* html{
+    background-color: rgb(31, 30, 30);
+
+} */
+body{
+    background-color: black;
+
+}
+
+
+
+.navegador{
+    background-color: rgb(0, 0, 0);
+    padding:2px
+
+}
+.navegador ul{
+    list-style-type: none; /*Le quita las viñetas a las listas*/
+    text-align: center;
+
+}
+.navegador li{
+    display: inline;
+    text-align: center;
+    margin: 0px, 10px, 0px, 0px;
+}
+.navegador li a{
+    padding: 7px 7px 7px 7px;
+    color: white;
+    text-decoration: none;
+    border-right:1px solid white ;
+}
+.navegador li a:hover{
+    background-color: #585858;
+    color: #ffffff;
+}
