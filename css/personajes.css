@@ -1,0 +1,39 @@
+.personaje {
+    margin: 5px;
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    position: relative;
+    border: 1px solid white;
+}
+
+.imagen-container {
+    padding: 10px;
+    position: relative;
+}
+
+img {
+    background-color: black;
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.nombre {
+    font-family: serif;
+    text-align: center;
+}
+
+
+/* Efecto al pasar el ratón por encima */
+.personaje:hover {
+    border: 2px solid grey;
+}
+
+.personaje:hover .informacion {
+    display: block;
+}
